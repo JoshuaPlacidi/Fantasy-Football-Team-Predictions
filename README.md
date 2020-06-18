@@ -14,10 +14,10 @@ The final system was tested on the 2019/20 Premier League season (gameweeks 4-29
 ## Methods used
 
 4 regression algorithms were compared in their ability to model fantasy football performance:
- -- Multiple Linear Regression
- -- Ridge Regression (CV)
- -- Lasso Regression (CV)
- -- Elastic Net Regression (CV)
+ - Multiple Linear Regression
+ - Ridge Regression (CV)
+ - Lasso Regression (CV)
+ - Elastic Net Regression (CV)
 *CV: Cross validation used to determine alpha values*
 The models were used to generate predictions for the number of fantasy points each player would score for a given week. A team was selected from the generated predictions using linear optimisation. The selected team must abide by the restrictions imposed by the [FPL](https://fantasy.premierleague.com/help/rules). The performance of the selected team in then analysed comparing the real score to the score the model would predict, here we are concerned with maximising actual performance rather then reducing the error between predicted and actual performance (though the more accurate the model the better).
 
