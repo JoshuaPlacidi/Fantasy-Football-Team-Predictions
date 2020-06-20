@@ -1,5 +1,5 @@
 # Predicting Fantasy Football Teams Using Machine Learning
-*By minimising human bias and focusing purely on statistics can a machine learning model be trained to consistantly predict high performing fantasy football teams?*
+*By minimising human bias and focusing purely on statistics can a system be trained to predict high performing fantasy football teams?*
 
 ## Premise
 This is a statistical study analysing the performance of varouis regression based machine learning algoirthms in their ability to predict the performance of fantasy football players in the English Premier League. In this study data structure and formatting, machine learning regression algorithms and optimisiation algorithms are all experimented with in order to create a final system capable of selecting a high performing fantasy football team for a given set of matches.
