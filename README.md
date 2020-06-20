@@ -9,6 +9,9 @@ This project is conducted in the Fantasy Premier League enviroment, the offical 
 ## Results overview
 An overview of the final results of the study are summarised here for convience. This file continues, outlining the pipeline of the system and concluding with an indepth analysis of the study and results.
 
+![1920 Season Results](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/1920_Sim_Comp.png "1920 Season Results")
+
+
 The final system was tested on the 2019/20 Premier League season (gameweeks 4-29) with positive results collected.
 
 ## Approach
