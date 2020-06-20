@@ -1,5 +1,5 @@
 # Predicting Fantasy Football Teams Using Machine Learning
-*By minimising human bias and focusing on football statistics can a machine learning model be trained to consistantly predict high performing fantasy football teams?*
+*By minimising human bias and focusing purely on statistics can a machine learning model be trained to consistantly predict high performing fantasy football teams?*
 
 ## Premise
 This is a statistical study analysing the performance of varouis regression based machine learning algoirthms in their ability to predict the performance of fantasy football players in the English Premier League. In this study data structure and formatting, machine learning regression algorithms and optimisiation algorithms are all experimented with in order to create a final system capable of selecting a high performing fantasy football team for a given set of matches.
@@ -36,3 +36,10 @@ The results show that all models achieved an average prediction error of less th
 
 ## Selecting Optimal Teams
 
+Once predictions had been generated for each player for each game, we then need to create an algorithm capable of selecting a subset of players for a given gameweek that obey all FPL team restrictions and in which the sum of points of all players is maximised. After experimenting with different approachs, a [linear optimisation](https://en.wikipedia.org/wiki/Linear_programming) solution was implemented. The final algorithm takes a list of players and their predicted points for a given gameweek and returns the optimal FPL legal team.
+
+// Insert Image of selection for an individual gameweek
+
+## Results
+
+We can now generate team selections for inidividual gameweeks and compare how well they actually performed. To test the system a simulation over the already played 2019/20 gameweeks (3-29) and measure the results.
