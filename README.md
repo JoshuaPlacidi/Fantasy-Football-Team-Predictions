@@ -9,10 +9,12 @@ This project is conducted in the Fantasy Premier League enviroment, the offical 
 ## Results overview
 An overview of the final results of the study are summarised here for convience. This file continues, outlining the pipeline of the system and concluding with an indepth analysis of the study and results.
 
+The graph below shows prediction performance for the 2019/20 season, for gameweeks 4-29 (gameweeks currently played).
+
 ![1920 Season Results](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/1920_Sim_Comp.png "1920 Season Results")
 
 
-The final system was tested on the 2019/20 Premier League season (gameweeks 4-29) with positive results collected.
+The Dream Team represents the highest possible score of an FPL legal team for each gameweek; due to the unpredictable nature of sports, predictions will fall significantly short of this score. FPL User Average shows the average score of all nearly 7.5M human players for each gameweek, the Final System shows the score of the system for each gameweek. We can see the system consistantly out performed the average FPL user score, when plotted on a cummulative frequency graph the difference is even more apparent.
 
 ## Approach
 
@@ -45,4 +47,4 @@ Once predictions had been generated for each player for each game, we then need 
 
 ## Results
 
-We can now generate team selections for inidividual gameweeks and compare how well they actually performed. To test the system a simulation over the already played 2019/20 gameweeks (3-29) and measure the results.
+We can now generate team selections for inidividual gameweeks and compare how well they actually performed. To test the system a simulation over the already played 2019/20 gameweeks (4-29) and measure the results.
