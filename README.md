@@ -7,19 +7,17 @@ This is a statistical study analysing the performance of various regression base
 This project is conducted in the Fantasy Premier League enviroment, the offical fantasy football application of the Premier League, information of the rules of the game can be found [here](https://www.premierleague.com/news/1252542).
 
 ## Results overview
-An overview of the final results of the study are summarised here for convience. This file continues, outlining the pipeline of the system and concluding with an indepth analysis of the study and results.
+An overview of the final results of the study are briefly summarised here for convience. This document continues, outlining the pipeline of the system and concluding with an detailed analysis of the study and results.
 
-The following results are from simulations run over the (currently played) 2019/20 Premier League Season. A full breakdown of scores with comparisons in a csv format can be found [here](https://github.com/JoshuaPlacidi/FPL-Predictions/blob/master/Results/1920_results.csv "1920 results in csv format")The graph below shows prediction performance for the 2019/20 season, for gameweeks 4-29 (gameweeks currently played).
+The following results are from a simulation run over the (currently played) 2019/20 Premier League Season. A breakdown of the simulation results with comparisons to the average user score and dream team score can be found [here](https://github.com/JoshuaPlacidi/FPL-Predictions/blob/master/Results/1920_results.csv "1920 results in csv format"). The graph below shows prediction performance for the 2019/20 season, for gameweeks 4-29 (29 gameweeks currently played, the system requires 3 prior games to have been played before predictions can be made).
 
 ![1920 Season Results](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/1920_results_graph.png "1920 Season Results")
 
-
-The Dream Team represents the highest possible score of an FPL legal team for each gameweek; due to the unpredictable nature of sports, predictions will fall significantly short of this score. FPL User Average shows the average score of all nearly 7.5M human players for each gameweek, the Final System shows the score of the system for each gameweek. We can see the system consistantly out performed the average FPL user score, when plotted on a cummulative frequency graph the difference is even more apparent.
+The Dream Team represents the highest possible score of an FPL legal team for each gameweek; due to the inherit unpredictable nature of sports, our generated selections will fall significantly short of this score. FPL Average shows the average score of all nearly 7.5M human players for each gameweek, the Final System shows the score of the system for each gameweek. We can see the system consistantly out performed the average FPL user score, when plotted on a cummulative frequency graph the difference is even more apparent.
 
 ![1920 Season Cumulative Sum Results](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/1920_results_cumsum_graph.png "1920 Season Cumulative Sum Results")
 
-The above graph shows a cumulative sum of the Final System vs the FPL Average. Here the dominance of the systems predictions can be better visualised over a time frame. Over the gameweek range of 4-29 the predictive system acheived a total score of 1518, the average FPL user score over the same peroid was 1262. While this is a large difference is should be noted that the predictive system did not take into account transfers and was selecting a new team from scratch for each week, whereas FPL users did have to abide by transfer restrictions.
-
+Over the gameweek range of 4-29 the predictive system acheived a total score of 1518, the average FPL user score over the same peroid was 1262. This is a large difference however it should be noted that the system did not take into account transfers and was selecting a new team from scratch each week, whereas FPL users did have to abide by transfer restrictions.
 
 ## Approach
 
