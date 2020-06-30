@@ -17,7 +17,7 @@ The Dream Team represents the highest possible score of an FPL legal team for ea
 
 ![1920 Season Cumulative Sum Results](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/1920_results_cumsum_graph.png "1920 Season Cumulative Sum Results")
 
-Over the gameweek range of 4-29 the predictive system acheived a total score of 1518, the average FPL user score over the same peroid was 1262. This is a large difference however it should be noted that the system did not take into account transfers and was selecting a new team from scratch each week, whereas FPL users did have to abide by transfer restrictions.
+Over the gameweek range of 4-29 the predictive system acheived a total score of 1518 (58.38 mean points per GW), the average FPL user score over the same peroid was 1262 (48.54 mean points per GW). This is a large difference however it should be noted that the system did not take into account transfers and was selecting a new team from scratch each week, whereas FPL users did have to abide by transfer restrictions.
 
 ## Approach
 
