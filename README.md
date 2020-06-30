@@ -16,7 +16,7 @@ The graph below shows prediction performance for the 2019/20 season, for gamewee
 
 The Dream Team represents the highest possible score of an FPL legal team for each gameweek; due to the unpredictable nature of sports, predictions will fall significantly short of this score. FPL User Average shows the average score of all nearly 7.5M human players for each gameweek, the Final System shows the score of the system for each gameweek. We can see the system consistantly out performed the average FPL user score, when plotted on a cummulative frequency graph the difference is even more apparent.
 
-![1920 Season Cummulative Sum Results](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/1920_cumsum_results_graph.png "1920 Season Cummulative Sum Results")
+![1920 Season Cummulative Sum Results](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/1920_results_cumsum_graph.png "1920 Season Cummulative Sum Results")
 
 
 ## Approach
