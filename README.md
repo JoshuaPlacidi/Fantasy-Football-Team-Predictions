@@ -11,7 +11,7 @@ An overview of the final results of the study are summarised here for convience.
 
 The graph below shows prediction performance for the 2019/20 season, for gameweeks 4-29 (gameweeks currently played).
 
-![1920 Season Results](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/1920_Sim_Comp.png "1920 Season Results")
+![1920 Season Results](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/1920_results_graph.png "1920 Season Results")
 
 
 The Dream Team represents the highest possible score of an FPL legal team for each gameweek; due to the unpredictable nature of sports, predictions will fall significantly short of this score. FPL User Average shows the average score of all nearly 7.5M human players for each gameweek, the Final System shows the score of the system for each gameweek. We can see the system consistantly out performed the average FPL user score, when plotted on a cummulative frequency graph the difference is even more apparent.
