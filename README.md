@@ -21,14 +21,10 @@ Over the gameweek range of 4-29 the predictive system acheived a total score of 
 
 ## Approach
 
-Linear regression models were used to generate predictions for the number of fantasy points each player would score for a given week. An optimal performing team was then selected from the generated predictions using linear optimisation. The selected team must abide by all [FPL restrictions](https://fantasy.premierleague.com/help/rules). The performance of the selected team was then analysed comparing the real score to the score the system predicted, here we are concerned with maximising actual performance rather then reducing the error between predicted and actual performance (though the more accurate the model the better).
+Linear regression models were used to generate predictions for the number of fantasy points each player would score for a given gameweek. An optimal performing team was then selected from the generated predictions using linear optimisation. The selected team must abide by all [FPL restrictions](https://fantasy.premierleague.com/help/rules). The systems selections are then analysed with the real results and are compared to the average FPL user score.
 
 ## Data
-Data was sourced from the official FPL API via the [vaastav repository](https://github.com/vaastav/Fantasy-Premier-League). Statistics from the past 4 seasons of the Premier League were combined into a single csv with a unique entry for each player for each game they played. A rolling dataset was then constructed where for each entry the sum of statistics from the prevouis *n* weeks were summed. The optimal value of n was found by testing the accuracy of the models with *n* values from 1 to 9.
-
-// Insert Image
-
-Results showed that *n = 3* gave the smallest error in predictions. So given a player and a game, performance statistics (goals scored, assists, minutes played ect...) from the players 3 prior games are used to make predictions for the given game.
+Data was sourced from the official FPL API via the [vaastav repository](https://github.com/vaastav/Fantasy-Premier-League). Statistics from the past 4 seasons of the Premier League were combined into a single [file](https://github.com/JoshuaPlacidi/FPL-Predictions/blob/master/Data/Player_Data.csv) with a unique entry for each player for each game. A rolling dataset was then generated where for each entry the sum of performance metrics (goals scored, assists, goals conceeded etc) from the previous *n* weeks were summed. An optimal *n* value of 3 was found by testing model accuracy with *n* values from 1 to 9. So each entry contains information about the fixture (opponet difficult, home/away etc) and data about how well the player had performed in their previous 3 games.
 
 ## Prediction Models
 
