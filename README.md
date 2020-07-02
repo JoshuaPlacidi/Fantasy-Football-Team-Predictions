@@ -28,15 +28,21 @@ Data was sourced from the official FPL API via the [vaastav repository](https://
 
 ## Prediction Models
 
-Four regression aglorithms were compared in their ability to accurately model fantasy football performance. FPL players are split into four position groups: goalkeepers, defenders, midfielders and forwards. To generate accurate predictions individual models were created for each position. Each algorithm was trained and tested on positional rolling datasets measuring the accuracy using k-fold cross validation (k=10) and the following results were generated:
+Four regression aglorithms were compared in their ability to accurately model and predict fantasy football performance. FPL splits players into four position groups: goalkeepers, defenders, midfielders and forwards, each group earns points in different ways. The accuracy of each algorithm for each position was tested over the range of *n* values (*n* = number of prevouis games considered). Below is an example of the results for the defenders subset:
 
-// Insert Image
+![Defender Model Comparison](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/defender_model_comparison.png "Defender Model Comparison")
 
-The results showed that linear regression dominates for each positional subset. Linear regression positional models were fine tuned to optimise performance for each position and then finialised. The accuracy of the final positional models was test again using k-fold cross validtion (k=10) with model accuracy being recorded:
+After tests had been run of all positional datasets it was concluded that linear regression with an *n* value of 3 provided the most accurate model for each position. The models were then fine tuned and tested using the 2016-17, 2017-18 and 2018-19 as training data and the current 2019-20 season as test data producing the following error:
 
-// Insert Image
+| Position | Mean Error
+--- | ---
+Goalkeepers | 2.342
+Defenders | 2.308
+Midfielders | 1.764
+Forwards | 2.134
+Total | 2.043
 
-The results show that all models achieved an average prediction error of less than 2 points.
+
 
 ## Selecting Optimal Teams
 
