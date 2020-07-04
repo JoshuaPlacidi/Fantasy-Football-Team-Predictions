@@ -46,11 +46,11 @@ All | 2.043
 
 Once predictions have been generated for each player in a gameweek, we then need to create an algorithm capable of selecting a subset that obey all FPL team [restrictions](https://fantasy.premierleague.com/help/rules) and in which the sum of predicted points of all players is maximised. After experimenting with different approaches, a [linear optimisation](https://en.wikipedia.org/wiki/Linear_programming) solution was implemented. The final algorithm takes a list of players and their predicted points and returns the optimal FPL legal team. For example when given data for the 29th gameweek of the 2019/20 season, the following team is outputted:
 
-![Gameweek 29 Selected Team](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/gw_29_selected_team.png "Gameweek 29 Selected Team")
+![Gameweek 29 Selected Team](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/gw_29_selected_team.PNG "Gameweek 29 Selected Team")
 
 The predicted and the real scores of individual players are able to be easily compared, along with team statistics. A range of gameweeks can also be run other quickly, the image below shows the output from gameweeks 25-29 of the 2019/20 Premier League season:
 
-![Gameweek 25-29 Selected Teams](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/gw_25_to_29_selected_teams.png "Gameweek 25-29 Selected Teams")
+![Gameweek 25-29 Selected Teams](https://github.com/JoshuaPlacidi/FPL-Predictions/blob/master/Results/gw_25_to_29_selected_teams.PNG?raw=true "Gameweek 25-29 Selected Teams")
 
 We can see the predicted and real score for gameweek and the total combined scores with the errors. Over significant ranges the average (mean) absolute error stays around 13 points which, with a mean real score of 58.38, gives a percentage error of around 22%.
 
