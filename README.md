@@ -30,14 +30,11 @@ Data was sourced from the official FPL API via the [vaastav repository](https://
 
 Four regression algorithms were compared in their ability to accurately model and predict fantasy football performance. FPL splits players into four position groups: goalkeepers, defenders, midfielders and forwards, each group earns points in different ways. The accuracy of each algorithm for each position was tested over the range of *n* values (*n* = number of previous games considered). Below is an example of the results for the defenders subset:
 
-<centre>
 ![Defender Model Comparison](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/defender_model_comparison.png "Defender Model Comparison")
 *Model comparison for defender positional group*
-</centre>
 
 After tests had been run of all positional datasets it was concluded that linear regression with an *n* value of 3 provided the most accurate model for each position. The models were then fine tuned and tested using the 2016-17, 2017-18 and 2018-19 seasons as training data and the current 2019-20 season as test data producing the following error:
 
-<centre>
 | Position | Mean Error
 --- | ---
 Goalkeepers | 2.342
@@ -45,7 +42,6 @@ Defenders | 2.308
 Midfielders | 1.764
 Forwards | 2.134
 All | 2.043
-</centre>
 
 We can see that predictions for midfielders are the most accurate, likely due to it being the most populous positions. Goalkeepers have the least data available resulting in high predictions error. The mean prediction error over all players is 2.043.
 
