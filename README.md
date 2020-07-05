@@ -58,7 +58,9 @@ We can see the predicted and real score for each gameweek and the total combined
 
 ## Summary
 
-The aim of this study was to create a system that could predict high performing fantasy football teams. Using FPL data, linear regression and linear optimisation a final system has been produced which satisfies this aim. Further work can be conducted to alter the team selection algorithm so that it takes as input an already selected team and selects a new optimal team while taking into account transfer restrictions and fines. With this improvement the system would be able to effectively manage its own team and make selections week by week, like human players, that slowly let it evolve its team over a range of gameweeks.
+The aim of this study was to create a system capable of predicting high performing fantasy football teams. Using FPL data, linear regression and linear optimisation a final system has been produced which satisfies this aim.
+
+Further work can be conducted to alter the team selection algorithm so that it takes as input an already selected team and augments that the input into a new optimal team while taking into account transfer restrictions and fines. With this improvement the system would be able to manage selections week by week, like human players, slowly evolving a team over a range of gameweeks.
 
 ## References
 
