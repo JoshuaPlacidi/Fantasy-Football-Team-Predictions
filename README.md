@@ -2,9 +2,9 @@
 *By minimising human bias and focusing purely on statistics can a system be made to predict high performing fantasy football teams?*
 
 ## Premise
-This is a statistical study analysing using machine learning in an attempt to develope a system which can use statistics to select high performing fantasy football teams. Regression-based machine learning algorithms are compared in their ability to predict the performance of football players in the English Premier League. An optimisation algorithm is then used to select a final team from these predictions. The final system is capable of consistently selecting high performing fantasy football teams.
+This is an analytical study using machine learning to develope a system which, purely using statistics, is capable of consistently selecting high performing fantasy football teams. Regression-based machine learning algorithms are compared in their ability to predict the performance of football players in the English Premier League. An optimisation algorithm is then used to select a final team from these predictions.
 
-This project is conducted in the Fantasy Premier League environment, the official application of the Premier League, information of the rules of the game can be found [here](https://fantasy.premierleague.com/help/rules).
+This project is conducted in the Fantasy Premier League environment, the official application of the Premier League, information on the rules of the game can be found [here](https://fantasy.premierleague.com/help/rules).
 
 ## Results overview
 The final results of the study are briefly summarised here for convenience. This document continues, outlining and analysing the pipeline of the system.
