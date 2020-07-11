@@ -9,7 +9,7 @@ This project is conducted in the Fantasy Premier League environment, the officia
 ## Results overview
 The final results of the study are briefly summarised here for convenience. This document continues, outlining and analysing the pipeline of the system.
 
-The following results are from a simulation run over the currently played matches of 2019/20 Premier League Season. A breakdown of the simulation results with comparisons to the average user score and dream team score can be found [here](https://github.com/JoshuaPlacidi/FPL-Predictions/blob/master/Results/1920_results.csv "1920 results in csv format"). The graph below shows prediction performance for the 2019/20 season, for gameweeks 4-29 (29 gameweeks currently played, the system requires 3 prior games to have been played before predictions can be made).
+The following results are from a simulation run over the currently played matches of 2019/20 Premier League season. A breakdown of the simulation results with comparisons to the average user score and dream team score can be found [here](https://github.com/JoshuaPlacidi/FPL-Predictions/blob/master/Results/1920_results.csv "1920 results in csv format"). The graph below shows prediction performance for the 2019/20 season for gameweeks 4-29 (29 gameweeks currently played, the system requires 3 prior games to have been played before predictions can be made).
 
 ![1920 Season Results](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/1920_results_graph.png "1920 Season Results")
 
@@ -46,7 +46,7 @@ We can see that predictions for midfielders are the most accurate, likely due to
 
 ## Selecting Optimal Teams
 
-Once predictions have been generated for each player in a gameweek, we then need to create an algorithm capable of selecting a subset of players (a team) that obey all FPL [restrictions](https://fantasy.premierleague.com/help/rules) and in which the sum of predicted points of all players is maximised. After experimenting with different approaches, a [linear optimisation](https://en.wikipedia.org/wiki/Linear_programming) solution was implemented. The final algorithm takes a list of players and their predicted points and returns the optimal scoring FPL legal team. For example when given data for the 29th gameweek of the 2019/20 season, the following team is outputted:
+Once predictions have been generated for each player in a gameweek, we then need to create an algorithm capable of selecting a subset of players (a team) that obeys all FPL [restrictions](https://fantasy.premierleague.com/help/rules) and in which the sum of predicted points of selected players is maximised. After experimenting with different approaches, a [linear optimisation](https://en.wikipedia.org/wiki/Linear_programming) solution was implemented. The final algorithm takes a list of players and their predicted points and returns the optimal scoring FPL legal team. For example when given data for the 29th gameweek of the 2019/20 season, the following team is outputted:
 
 ![Gameweek 29 Selected Team](https://github.com/JoshuaPlacidi/FPL-Predictions/blob/master/Results/gw_29_selected_team.PNG?raw=true "Gameweek 29 Selected Team")
 
