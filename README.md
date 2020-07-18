@@ -28,7 +28,7 @@ Data was sourced from the official FPL API via the [vaastav repository](https://
 
 ## Prediction Models
 
-Four regression algorithms were compared in their ability to accurately model and predict fantasy football performance. FPL splits players into four position groups: goalkeepers, defenders, midfielders and forwards, each group earns points in different ways. The accuracy of each algorithm for each position was tested over the range of *n* values (*n* = number of previous games considered). Below is an example of the results for the defenders subset:
+Linear, Ridge, Lasso and Elastic Net regression algorithms were compared in their ability to accurately model and predict fantasy football performance. Each algorithm calculates predictions slightly differently, a brief explanation of each algorithm can be found [here](https://towardsdatascience.com/whats-the-difference-between-linear-regression-lasso-ridge-and-elasticnet-8f997c60cf29). FPL splits players into four position groups: goalkeepers, defenders, midfielders and forwards, each group earns points in different ways. The accuracy of each algorithm for each position was tested over the range of *n* values (*n* = number of previous games considered). Below is an example of the results for the defenders subset:
 
 ![Defender Model Comparison](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/defender_model_comparison.png "Defender Model Comparison")
 
