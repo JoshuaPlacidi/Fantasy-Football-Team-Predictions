@@ -13,7 +13,7 @@ The following results are from a simulation run over the currently played matche
 
 ![1920 Season Results](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/1920_results_graph.png "1920 Season Results")
 
-The dream team represents the highest possible score of an FPL legal team for each gameweek; due to the inherit unpredictable nature of sports, our generated selections will fall significantly short of this score. FPL Average shows the average score of all over 7.5M human players for each gameweek, the Final System shows the score of the system's selected team for each gameweek. We can see the Final System consistently out performed the average FPL user score, when plotted on a cumulative frequency graph the difference is even more apparent.
+The Dream Team represents the highest possible score of an FPL legal team for each gameweek; due to the inherit unpredictable nature of sports, our generated selections will fall significantly short of this score. FPL Average shows the average score of all over 7.5M human players for each gameweek, the Final System shows the score of the system's selected team for each gameweek. We can see the Final System consistently out performed the average FPL user score, when plotted on a cumulative frequency graph the difference is even more apparent.
 
 ![1920 Season Cumulative Sum Results](https://raw.githubusercontent.com/JoshuaPlacidi/FPL-Predictions/master/Results/Graphs/1920_results_cumsum_graph.png "1920 Season Cumulative Sum Results")
 
